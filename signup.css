@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    width: 50%;
+
+}
+
+.two{
+    width: 50%;
+
+}
+
+.heading{
+    text-align: center;
+    color: blueviolet;
+    /* text-decoration: underline 2px solid rgb(245, 245, 102); */
+    font-size: 22px;
+    margin-bottom: 3%;
+    width: 80%;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: blue;
+    text-shadow: 1px 1px 1px grey;
+}
+
+input[type="text"],[type="email"],[type="password"]{
+    padding: 1%;
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 2px 2px grey;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    accent-color: green;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.btn{
+    background-color: rgb(159, 65, 247);
+    columns: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    padding: 0.6%;
+}
+
+.bth:hover{
+    transform: scale(1.2);
+}
+
+.line{
+    margin-top: 3%;
+    width: 80%;
+
+}
+
+.para{
+    text-align: center;
+    margin-top: 1%;
+    width: 80%;
+}
+.para a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(5, 78, 249);
+    font-size: 18px;
+}
